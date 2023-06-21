@@ -1,0 +1,128 @@
+/* Couleur d'arrière-plan */
+body {
+    background-color: #f2f2f2;
+  }
+  
+  /* Centrer le conteneur principal */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Centrer le titre */
+  h1 {
+    text-align: center;
+  }
+  
+  /* Centrer les sections */
+  section {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Centrer le texte du sélecteur de filtrage */
+  label {
+    display: block;
+    text-align: center;
+  }
+  
+  /* Centrer la liste des lancements */
+  ul#launch-list {
+    text-align: center;
+  }
+  
+  /* Style du header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Style du footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Style de base pour les sections de lancement */
+  .launch {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style du titre du lancement */
+  .launch h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Style de la date du lancement */
+  .launch p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  /* Style des détails de la mission */
+  .launch p.details {
+    font-style: italic;
+  }
+  
+  /* Style de l'image d'illustration */
+  .launch img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  /* Style du lien vers l'article */
+  .launch a.article-link {
+    display: block;
+    margin-bottom: 10px;
+    color: blue;
+  }
+  
+  /* Style du lien pour la vidéo YouTube */
+  .launch a.video-link {
+    display: block;
+    color: blue;
+  }
+  
+  /* Style du sélecteur de filtrage */
+  #launch-filter {
+    margin-bottom: 20px;
+  }
+  
+  /* Style du compte à rebours */
+  #countdown {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Style du titre de la section "Prochain lancement" */
+  #next-launch-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Style de la date du prochain lancement */
+  #next-launch-date {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  /* Style des lancements réussis */
+  .launch.success {
+    background-color: lightgreen;
+  }
+  
+  /* Style des lancements échoués */
+  .launch.failure {
+    background-color: lightcoral;
+  }
+  

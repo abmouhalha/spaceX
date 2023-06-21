@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Application SpaceX</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Application SpaceX</h1>
+  </header>
+
+  <div class="container">
+    <section id="next-launch-section">
+      <h2>Prochain lancement</h2>
+      <p id="countdown"></p>
+      <h3 id="next-launch-name"></h3>
+      <p id="next-launch-date"></p>
+    </section>
+
+    <section id="launches-section">
+      <h2>Liste des lancements</h2>
+      <label for="launch-filter">Filtrer les lancements :</label>
+      <select id="launch-filter">
+        <option value="all">Tous les lancements</option>
+        <option value="success">Lancements réussis</option>
+        <option value="failure">Lancements échoués</option>
+      </select>
+      <ul id="launch-list"></ul>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 SpaceX App</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="launch.js"></script>
+  <script src="nextLaunch.js"></script>
+</body>
+</html>
